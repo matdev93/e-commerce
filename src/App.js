@@ -1,11 +1,12 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import Rutas from './Routes/Rutas/Rutas';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-     Proyecto final
-    </div>
+    <>
+     <Rutas />
+    </>
   );
 }
 
