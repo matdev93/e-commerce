@@ -7,6 +7,7 @@ const Layout = () => {
     <>
         <Navigation/>
         <Outlet/>
+        
     </>
   )
 }
